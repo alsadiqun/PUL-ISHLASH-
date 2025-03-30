@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soqqa Ishlash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💰 Soqqa Ishlash Sayti 💰</h1>
+        <p>Sizning balansingiz:</p>
+        <h2 id="balance">0 so‘m</h2>
+        <button id="earnButton">💵 Soqqa Ishlash!</button>
+        <p id="message"></p>
+
+        <!-- Plastik karta formasini boshlanishi -->
+        <div id="withdrawSection" style="display: none;">
+            <h3>💳 Pulni yechib oling</h3>
+            <input type="text" id="cardNumber" placeholder="Plastik karta raqami (8600...)" required>
+            <button id="withdrawButton">✅ Pulni yechib olish</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
